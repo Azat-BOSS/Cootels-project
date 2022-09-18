@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Inter';
+  font-weight: 400;
+  src: url('../fonts/inter/Inter-Medium.woff2'), format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 500;
+  src: url('../fonts/inter/Inter-Regular.woff2'), format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 600;
+  src: url('../fonts/inter/Inter-SemiBold.woff2'), format('woff2');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  src: url('../fonts/montserrat/Montserrat-SemiBold.woff2'), format('woff2');
+}

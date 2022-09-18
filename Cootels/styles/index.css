@@ -1,0 +1,197 @@
+/* vendor */
+@import url('../vendor/font.css');
+@import url('../vendor/reset.css');
+
+/* header */
+@import url('../blocks/header-hero/__block-text/header-hero__block-text.css');
+@import url('../blocks/header-hero/__image/header-hero__image.css');
+@import url('../blocks/header-hero/__image/_center/header-hero__image_center.css');
+@import url('../blocks/header-hero/__image/_left/header-hero__image_left.css');
+@import url('../blocks/header-hero/__images/header-hero__images.css');
+@import url('../blocks/header-hero/__text/header-hero__text.css');
+@import url('../blocks/header-hero/__title/header-hero__title.css');
+@import url('../blocks/header-hero/_button/header-hero_button.css');
+@import url('../blocks/header-hero/header-hero.css');
+@import url('../blocks/header-nav/__link/header-nav__link.css');
+@import url('../blocks/header-nav/__logo/header-nav__logo.css');
+@import url('../blocks/header-nav/__nav/header-nav__nav.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/main-btn/main-btn.css');
+@import url('../blocks/main-page/main-page.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/header-nav/_button/header-nav_button.css');
+@import url('../blocks/header-nav/header-nav.css');
+
+
+
+
+.main {
+  padding: 0 120px;
+}
+.about {
+  margin-top: 176px;
+}
+.reservation {
+}
+/* ---------- */
+.card__container {
+}
+
+.card-about__container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 160px;
+}
+
+
+.card-about__img {
+  margin-right: 126px;
+  opacity: 0;
+  transform: translateY(-35px);
+  transition: 1.2s ease-in-out;
+}
+
+.card-about__img.element-show {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.card-about__text-block {
+  max-width: 690px;
+}
+.card__title {
+}
+.card-about__title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 150%; 
+  letter-spacing: -0.01em;
+  color: #192252;
+  margin-bottom: 24px;
+  opacity: 0;
+  transform: translateY(-35px);
+  transition: 1s ease-in-out;
+}
+
+.card-about__title.element-show {
+  transform: translateY(0);
+  opacity: 1;
+}
+.card__text {
+}
+.card-about__text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #848FAC;
+  max-width: 584px;
+  margin-bottom: 32px;
+  opacity: 0;
+  transform: translateY(-35px);
+  transition: .8s ease-in-out;
+}
+
+.card-about__text.element-show {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.card-about__button {
+  width: 151px;
+  height: 51px;
+}
+
+
+
+/* ------ */
+
+.card-reservation__container{
+}
+
+.reservation__block {
+  display: flex;
+  column-gap: 24px;
+}
+
+.reservation {
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+.reservation__title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #192252;
+  margin-bottom: 24px;
+}
+.reservation__text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: #848FAC;
+  margin-bottom: 32px;
+  max-width: 588px;
+}
+
+.reservation__button {
+  width: 165px;
+  height: 51px;
+  margin-bottom: 88px;
+}
+
+/* ------- */
+
+
+.card-reservation__img {
+  max-width: 384px;
+  height: auto;
+  margin-bottom: 24px;
+}
+
+.card-reservation__title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 16px;
+}
+
+.card-reservation__text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #848FAC;
+  margin-bottom: 32px;
+  max-width: 384px;
+}
+
+
+.card-reservation__button {
+  width: 129px;
+  height: 27px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #424F7B;
+  cursor: pointer;
+  background-color: transparent;
+}

@@ -1,0 +1,6 @@
+.header-nav {
+  padding: 37px 0 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

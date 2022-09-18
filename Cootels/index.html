@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/index.css">
+  <title>Cootels</title>
+</head>
+<body>
+  <div class="main-page">
+    <header class="header">
+      <div class="header-nav">
+        <div class="header-nav__container">
+          <h3 class="header-nav__logo">Cootels</h3>
+        </div>
+
+        <nav class="header-nav__nav">
+          <a href="#" class="header-nav__link">Rooms</a>
+          <a href="#" class="header-nav__link">Reservation</a>
+          <a href="#" class="header-nav__link">Contacs</a>
+        </nav>
+
+        <button button="button" class="main-btn header-nav_button">Get Started</button>
+      </div>
+      <div class="header-hero">
+        <div class="header-hero__block-text">
+          <h1 class="header-hero__title element-animation"></h1>
+          <p class="header-hero__text element-animation"></p>
+          <button class="main-btn header-hero_button element-animation"></button>
+        </div>
+        
+        <div class="header-hero__images">
+          <img src="./images/intro-left.png" alt="image" class="header-hero__image header-hero__image_left">
+          <img src="./images/intro-center.png" alt="image" class="header-hero__image header-hero__image_center">
+          <img src="./images/intro-right.png" alt="image" class="header-hero__image header-hero__image_right">
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="about"></section>
+
+      <section class="reservation">
+        <h3 class="reservation__title"></h3>
+        <p class="reservation__text"></p>
+        <button class="main-btn reservation__button"></button>
+        <div class="reservation__block"></div>
+      </section>
+
+    </main>
+    <footer class="footer">
+
+    </footer>
+
+    <!-- templates -->
+    <template class="card-about">
+      <div class="card__container">
+        <div class="card-about__container">
+          <img src='' alt="image" class="card__img card-about__img element-animation">
+          <div class="card-about__text-block">
+            <h3 class="card__title card-about__title element-animation"></h3>
+            <p class="card__text card-about__text element-animation"></p>
+            <button class="main-btn card__button card-about__button element-animation"></button>
+          </div>
+        </div>
+      </div>
+    </template>
+    
+    <template class="card-reservation">
+      <div class="card__container">
+        <img src='' alt="image" class="card__img card-reservation__img">
+        <h3 class="card__title card-reservation__title"></h3>
+        <p class="card__text card-reservation__text"></p>
+        <button class="card__button card-reservation__button"></button>
+      </div>
+    </template>
+
+  </div>
+  <script type="module" src="./pages/index.js"></script>
+</body>
+</html>

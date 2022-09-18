@@ -1,0 +1,26 @@
+.main-btn {
+  background: #0E1734;
+  border-radius: 4px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
+  opacity: 0;
+  transform: translateY(-35px);
+}
+
+
+.main-btn.element-show {
+  opacity: 1;
+  transition: .6s ease-in-out;
+  transform: translateY(0);
+}
+
+.main-btn:hover {
+  opacity: .7;
+}

@@ -1,0 +1,18 @@
+.header-hero__text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #848FAC;
+  max-width: 485px;
+  margin-bottom: 32px;
+  opacity: 0;
+  transition: .8s ease-in-out;
+  transform: translateY(-20px);
+}
+
+.header-hero__text.element-show {
+  opacity: 1;
+  transform: translateY(0px);
+}

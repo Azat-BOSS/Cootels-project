@@ -1,0 +1,30 @@
+.header-nav__link {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #192252;
+  margin-right: 32px;
+  position: relative;
+}
+
+.header-nav__link::before {
+  content: '';
+  width: 0%;
+  height: 2px;
+  border-bottom: solid 2px black;
+  position: absolute;
+  top: 100%;
+  opacity: 0;
+  transition: .4s ease-in-out;
+}
+
+.header-nav__link:hover::before {
+  width: 100%;
+  opacity: 1;
+}
+
+.header-nav__link:last-child {
+  margin-right: 0;
+}

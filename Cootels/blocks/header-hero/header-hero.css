@@ -1,0 +1,5 @@
+.header-hero {
+  display: flex;
+  min-height: calc(100vh - 119px);
+  align-items: center;
+}
